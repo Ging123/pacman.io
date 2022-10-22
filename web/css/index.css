@@ -1,0 +1,42 @@
+.container {
+  background:black;
+  height:100vh;
+  padding:80px;
+  position:relative;
+  width:100%;
+}
+
+.game-container {
+  border:5px solid green;
+  height:100%;
+  width:100%;
+}
+
+.player {
+  background-color: aqua;
+  height:37px;
+  overflow:hidden;
+  position:relative;
+  width:35px;
+}
+
+/* @keyframes test {
+  0% {
+    top:0px;
+  }
+
+  25% {
+    top:-42px;
+  }
+
+  100% {
+    top:-82px;
+  }
+} */
+
+.player--sprite {
+  left:-727px;
+  position:absolute;
+  top:2px;
+  width:800px;
+}
